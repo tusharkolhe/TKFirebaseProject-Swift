@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		718F778820EC965D00F6FDB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718F778720EC965D00F6FDB8 /* AppDelegate.swift */; };
+		718F778A20EC965D00F6FDB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718F778920EC965D00F6FDB8 /* ViewController.swift */; };
+		718F778D20EC965D00F6FDB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 718F778B20EC965D00F6FDB8 /* Main.storyboard */; };
+		718F778F20EC965D00F6FDB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 718F778E20EC965D00F6FDB8 /* Assets.xcassets */; };
+		718F779220EC965D00F6FDB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 718F779020EC965D00F6FDB8 /* LaunchScreen.storyboard */; };
+		718F779D20EC965D00F6FDB8 /* TKFirebaseLoginDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718F779C20EC965D00F6FDB8 /* TKFirebaseLoginDemoTests.swift */; };
+		718F77A820EC965D00F6FDB8 /* TKFirebaseLoginDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718F77A720EC965D00F6FDB8 /* TKFirebaseLoginDemoUITests.swift */; };
+		718F77B620EC9B8500F6FDB8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718F77B520EC9B8500F6FDB8 /* LoginViewController.swift */; };
+		718F77BA20EC9C8800F6FDB8 /* google_firebase-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 718F77B920EC9C8800F6FDB8 /* google_firebase-512.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		718F779920EC965D00F6FDB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 718F777C20EC965D00F6FDB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 718F778320EC965D00F6FDB8;
+			remoteInfo = TKFirebaseLoginDemo;
+		};
+		718F77A420EC965D00F6FDB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 718F777C20EC965D00F6FDB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 718F778320EC965D00F6FDB8;
+			remoteInfo = TKFirebaseLoginDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		718F778420EC965D00F6FDB8 /* TKFirebaseLoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKFirebaseLoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		718F778720EC965D00F6FDB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		718F778920EC965D00F6FDB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		718F778C20EC965D00F6FDB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		718F778E20EC965D00F6FDB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		718F779120EC965D00F6FDB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		718F779320EC965D00F6FDB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		718F779820EC965D00F6FDB8 /* TKFirebaseLoginDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKFirebaseLoginDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		718F779C20EC965D00F6FDB8 /* TKFirebaseLoginDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKFirebaseLoginDemoTests.swift; sourceTree = "<group>"; };
+		718F779E20EC965D00F6FDB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		718F77A320EC965D00F6FDB8 /* TKFirebaseLoginDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKFirebaseLoginDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		718F77A720EC965D00F6FDB8 /* TKFirebaseLoginDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKFirebaseLoginDemoUITests.swift; sourceTree = "<group>"; };
+		718F77A920EC965D00F6FDB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		718F77B520EC9B8500F6FDB8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		718F77B920EC9C8800F6FDB8 /* google_firebase-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "google_firebase-512.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		718F778120EC965D00F6FDB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		718F779520EC965D00F6FDB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		718F77A020EC965D00F6FDB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		718F777B20EC965D00F6FDB8 = {
+			isa = PBXGroup;
+			children = (
+				718F778620EC965D00F6FDB8 /* TKFirebaseLoginDemo */,
+				718F779B20EC965D00F6FDB8 /* TKFirebaseLoginDemoTests */,
+				718F77A620EC965D00F6FDB8 /* TKFirebaseLoginDemoUITests */,
+				718F778520EC965D00F6FDB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		718F778520EC965D00F6FDB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				718F778420EC965D00F6FDB8 /* TKFirebaseLoginDemo.app */,
+				718F779820EC965D00F6FDB8 /* TKFirebaseLoginDemoTests.xctest */,
+				718F77A320EC965D00F6FDB8 /* TKFirebaseLoginDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		718F778620EC965D00F6FDB8 /* TKFirebaseLoginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				718F778720EC965D00F6FDB8 /* AppDelegate.swift */,
+				718F778920EC965D00F6FDB8 /* ViewController.swift */,
+				718F77B520EC9B8500F6FDB8 /* LoginViewController.swift */,
+				718F778B20EC965D00F6FDB8 /* Main.storyboard */,
+				718F77B920EC9C8800F6FDB8 /* google_firebase-512.png */,
+				718F778E20EC965D00F6FDB8 /* Assets.xcassets */,
+				718F779020EC965D00F6FDB8 /* LaunchScreen.storyboard */,
+				718F779320EC965D00F6FDB8 /* Info.plist */,
+			);
+			path = TKFirebaseLoginDemo;
+			sourceTree = "<group>";
+		};
+		718F779B20EC965D00F6FDB8 /* TKFirebaseLoginDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				718F779C20EC965D00F6FDB8 /* TKFirebaseLoginDemoTests.swift */,
+				718F779E20EC965D00F6FDB8 /* Info.plist */,
+			);
+			path = TKFirebaseLoginDemoTests;
+			sourceTree = "<group>";
+		};
+		718F77A620EC965D00F6FDB8 /* TKFirebaseLoginDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				718F77A720EC965D00F6FDB8 /* TKFirebaseLoginDemoUITests.swift */,
+				718F77A920EC965D00F6FDB8 /* Info.plist */,
+			);
+			path = TKFirebaseLoginDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		718F778320EC965D00F6FDB8 /* TKFirebaseLoginDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 718F77AC20EC965D00F6FDB8 /* Build configuration list for PBXNativeTarget "TKFirebaseLoginDemo" */;
+			buildPhases = (
+				718F778020EC965D00F6FDB8 /* Sources */,
+				718F778120EC965D00F6FDB8 /* Frameworks */,
+				718F778220EC965D00F6FDB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKFirebaseLoginDemo;
+			productName = TKFirebaseLoginDemo;
+			productReference = 718F778420EC965D00F6FDB8 /* TKFirebaseLoginDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		718F779720EC965D00F6FDB8 /* TKFirebaseLoginDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 718F77AF20EC965D00F6FDB8 /* Build configuration list for PBXNativeTarget "TKFirebaseLoginDemoTests" */;
+			buildPhases = (
+				718F779420EC965D00F6FDB8 /* Sources */,
+				718F779520EC965D00F6FDB8 /* Frameworks */,
+				718F779620EC965D00F6FDB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				718F779A20EC965D00F6FDB8 /* PBXTargetDependency */,
+			);
+			name = TKFirebaseLoginDemoTests;
+			productName = TKFirebaseLoginDemoTests;
+			productReference = 718F779820EC965D00F6FDB8 /* TKFirebaseLoginDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		718F77A220EC965D00F6FDB8 /* TKFirebaseLoginDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 718F77B220EC965D00F6FDB8 /* Build configuration list for PBXNativeTarget "TKFirebaseLoginDemoUITests" */;
+			buildPhases = (
+				718F779F20EC965D00F6FDB8 /* Sources */,
+				718F77A020EC965D00F6FDB8 /* Frameworks */,
+				718F77A120EC965D00F6FDB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				718F77A520EC965D00F6FDB8 /* PBXTargetDependency */,
+			);
+			name = TKFirebaseLoginDemoUITests;
+			productName = TKFirebaseLoginDemoUITests;
+			productReference = 718F77A320EC965D00F6FDB8 /* TKFirebaseLoginDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		718F777C20EC965D00F6FDB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Tushar Kolhe";
+				TargetAttributes = {
+					718F778320EC965D00F6FDB8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					718F779720EC965D00F6FDB8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 718F778320EC965D00F6FDB8;
+					};
+					718F77A220EC965D00F6FDB8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 718F778320EC965D00F6FDB8;
+					};
+				};
+			};
+			buildConfigurationList = 718F777F20EC965D00F6FDB8 /* Build configuration list for PBXProject "TKFirebaseLoginDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 718F777B20EC965D00F6FDB8;
+			productRefGroup = 718F778520EC965D00F6FDB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				718F778320EC965D00F6FDB8 /* TKFirebaseLoginDemo */,
+				718F779720EC965D00F6FDB8 /* TKFirebaseLoginDemoTests */,
+				718F77A220EC965D00F6FDB8 /* TKFirebaseLoginDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		718F778220EC965D00F6FDB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				718F779220EC965D00F6FDB8 /* LaunchScreen.storyboard in Resources */,
+				718F778F20EC965D00F6FDB8 /* Assets.xcassets in Resources */,
+				718F778D20EC965D00F6FDB8 /* Main.storyboard in Resources */,
+				718F77BA20EC9C8800F6FDB8 /* google_firebase-512.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		718F779620EC965D00F6FDB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		718F77A120EC965D00F6FDB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		718F778020EC965D00F6FDB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				718F77B620EC9B8500F6FDB8 /* LoginViewController.swift in Sources */,
+				718F778A20EC965D00F6FDB8 /* ViewController.swift in Sources */,
+				718F778820EC965D00F6FDB8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		718F779420EC965D00F6FDB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				718F779D20EC965D00F6FDB8 /* TKFirebaseLoginDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		718F779F20EC965D00F6FDB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				718F77A820EC965D00F6FDB8 /* TKFirebaseLoginDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		718F779A20EC965D00F6FDB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 718F778320EC965D00F6FDB8 /* TKFirebaseLoginDemo */;
+			targetProxy = 718F779920EC965D00F6FDB8 /* PBXContainerItemProxy */;
+		};
+		718F77A520EC965D00F6FDB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 718F778320EC965D00F6FDB8 /* TKFirebaseLoginDemo */;
+			targetProxy = 718F77A420EC965D00F6FDB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		718F778B20EC965D00F6FDB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				718F778C20EC965D00F6FDB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		718F779020EC965D00F6FDB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				718F779120EC965D00F6FDB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		718F77AA20EC965D00F6FDB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		718F77AB20EC965D00F6FDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		718F77AD20EC965D00F6FDB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6RG38TUSL;
+				INFOPLIST_FILE = TKFirebaseLoginDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TusharKolhe.TKFirebaseLoginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		718F77AE20EC965D00F6FDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6RG38TUSL;
+				INFOPLIST_FILE = TKFirebaseLoginDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TusharKolhe.TKFirebaseLoginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		718F77B020EC965D00F6FDB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6RG38TUSL;
+				INFOPLIST_FILE = TKFirebaseLoginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TusharKolhe.TKFirebaseLoginDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TKFirebaseLoginDemo.app/TKFirebaseLoginDemo";
+			};
+			name = Debug;
+		};
+		718F77B120EC965D00F6FDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6RG38TUSL;
+				INFOPLIST_FILE = TKFirebaseLoginDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TusharKolhe.TKFirebaseLoginDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TKFirebaseLoginDemo.app/TKFirebaseLoginDemo";
+			};
+			name = Release;
+		};
+		718F77B320EC965D00F6FDB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6RG38TUSL;
+				INFOPLIST_FILE = TKFirebaseLoginDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TusharKolhe.TKFirebaseLoginDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TKFirebaseLoginDemo;
+			};
+			name = Debug;
+		};
+		718F77B420EC965D00F6FDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6RG38TUSL;
+				INFOPLIST_FILE = TKFirebaseLoginDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TusharKolhe.TKFirebaseLoginDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TKFirebaseLoginDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		718F777F20EC965D00F6FDB8 /* Build configuration list for PBXProject "TKFirebaseLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				718F77AA20EC965D00F6FDB8 /* Debug */,
+				718F77AB20EC965D00F6FDB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		718F77AC20EC965D00F6FDB8 /* Build configuration list for PBXNativeTarget "TKFirebaseLoginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				718F77AD20EC965D00F6FDB8 /* Debug */,
+				718F77AE20EC965D00F6FDB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		718F77AF20EC965D00F6FDB8 /* Build configuration list for PBXNativeTarget "TKFirebaseLoginDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				718F77B020EC965D00F6FDB8 /* Debug */,
+				718F77B120EC965D00F6FDB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		718F77B220EC965D00F6FDB8 /* Build configuration list for PBXNativeTarget "TKFirebaseLoginDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				718F77B320EC965D00F6FDB8 /* Debug */,
+				718F77B420EC965D00F6FDB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 718F777C20EC965D00F6FDB8 /* Project object */;
+}
