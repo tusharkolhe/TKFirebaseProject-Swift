@@ -6,8 +6,9 @@ target 'TKFirebaseLoginDemo' do
   use_frameworks!
 
   # Pods for TKFirebaseLoginDemo
-
-	pod 'Firebase/Auth'
+pod 'Firebase/Core'
+	
+pod 'Firebase/Auth'
 
 
   target 'TKFirebaseLoginDemoTests' do
